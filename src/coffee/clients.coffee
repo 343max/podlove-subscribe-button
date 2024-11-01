@@ -195,6 +195,13 @@ class Clients
       icon: 'osx/podcasts_big_sur.png'
     },
     {
+      title: 'Overcast'
+      scheme: 'overcast://x-callback-url/add?url='
+      icon: 'ios/overcast.png'
+      store: 'https://apps.apple.com/app/overcast-podcast-player/id888422857'
+      http: true
+    },
+    {
       title: 'Downcast'
       scheme: 'downcast://'
       icon: 'osx/downcast.png'
